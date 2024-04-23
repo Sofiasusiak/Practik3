@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор у 16-ковій системі</title>
+    <!-- Підключення файлу JavaScript -->
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <h1>Калькулятор у 16-ковій системі</h1>
+    <label for="num1">Число 1 (16-кове):</label>
+    <input type="text" id="num1" name="num1" placeholder="Введіть число 1"><br><br>
+
+    <label for="operator">Операція (+, -, *, /):</label>
+    <input type="text" id="operator" name="operator" placeholder="Введіть операцію"><br><br>
+
+    <label for="num2">Число 2 (16-кове):</label>
+    <input type="text" id="num2" name="num2" placeholder="Введіть число 2"><br><br>
+
+    <button onclick="Calculator()">Обчислити</button><br><br>
+
+    <div id="result"></div>
+</body>
+</html>
